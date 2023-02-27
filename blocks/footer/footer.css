@@ -3,16 +3,17 @@
     flex-direction: row;
     margin: 92px 48px 24px;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .footer{
         margin: 92px 24px 24px;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .footer{
         margin: 97px 16px 24px;
         flex-direction: column;
