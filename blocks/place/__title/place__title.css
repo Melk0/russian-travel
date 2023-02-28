@@ -9,15 +9,20 @@
     grid-row: 1/2;
 }
 
+@media screen and (max-width: 1024px){
+    .place__title{
+        max-width: 440px;
+    }
+}
+
 @media screen and (max-width: 1023px){
     .place__title{
         font-size: 42px;
         line-height: 46px;
         max-width: 340px;
-        padding-right: 20px;
+        margin-right: 11px;
     }
 }
-
 
 @media screen and (max-width: 767px){
     .place__title{

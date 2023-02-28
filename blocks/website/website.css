@@ -7,6 +7,12 @@
     align-self: end;
 }
 
+@media screen and (max-width: 768px){
+    .website{
+        margin: 3px 0 ;
+    }
+}
+
 @media screen and (max-width: 767px){
     .website{
         grid-column: 1/1;
